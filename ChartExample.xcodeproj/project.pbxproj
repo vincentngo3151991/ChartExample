@@ -14,6 +14,8 @@
 		B8EFBC4A1F9D44E000309AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EFBC491F9D44E000309AD1 /* Assets.xcassets */; };
 		B8EFBC4D1F9D44E000309AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8EFBC4B1F9D44E000309AD1 /* LaunchScreen.storyboard */; };
 		B8EFBC551F9D456B00309AD1 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = B8EFBC541F9D456B00309AD1 /* podfile */; };
+		B8EFBC571F9D521400309AD1 /* GradientLineRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFBC561F9D521400309AD1 /* GradientLineRenderer.swift */; };
+		B8EFBC591F9D55EF00309AD1 /* GradientLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFBC581F9D55EF00309AD1 /* GradientLineChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		B8EFBC4C1F9D44E000309AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8EFBC4E1F9D44E000309AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8EFBC541F9D456B00309AD1 /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		B8EFBC561F9D521400309AD1 /* GradientLineRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLineRenderer.swift; sourceTree = "<group>"; };
+		B8EFBC581F9D55EF00309AD1 /* GradientLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLineChartView.swift; sourceTree = "<group>"; };
 		F4801CE0A00F971198F18558 /* Pods-ChartExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChartExample/Pods-ChartExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +77,8 @@
 		B8EFBC411F9D44E000309AD1 /* ChartExample */ = {
 			isa = PBXGroup;
 			children = (
+				B8EFBC581F9D55EF00309AD1 /* GradientLineChartView.swift */,
+				B8EFBC561F9D521400309AD1 /* GradientLineRenderer.swift */,
 				B8EFBC421F9D44E000309AD1 /* AppDelegate.swift */,
 				B8EFBC441F9D44E000309AD1 /* ViewController.swift */,
 				B8EFBC461F9D44E000309AD1 /* Main.storyboard */,
@@ -222,7 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8EFBC451F9D44E000309AD1 /* ViewController.swift in Sources */,
+				B8EFBC591F9D55EF00309AD1 /* GradientLineChartView.swift in Sources */,
 				B8EFBC431F9D44E000309AD1 /* AppDelegate.swift in Sources */,
+				B8EFBC571F9D521400309AD1 /* GradientLineRenderer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
